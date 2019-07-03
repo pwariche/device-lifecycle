@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 date: '2018-05-15 11:11 -0700'
 title: ZTP Workflow Part 2 The DHCP Server
 author: Patrick Warichet
