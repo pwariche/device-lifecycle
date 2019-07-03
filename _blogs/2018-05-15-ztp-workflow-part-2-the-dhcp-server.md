@@ -1,7 +1,11 @@
 ---
-published: false
+published: true
 date: '2018-05-15 11:11 -0700'
 title: ZTP Workflow Part 2 The DHCP Server
+author: Patrick Warichet
+tags:
+  - iosxr
+  - cisco
 ---
 ## Introduction
 
@@ -134,4 +138,3 @@ class "VLAN10" {
         match if binary-to-ascii(10,16,"",substring(option agent.circuit-id,2,2)) = "10";
 }
 ```
-
